@@ -30,4 +30,9 @@ setup(
         "Operating System :: OS Independent",
 		"Topic :: Scientific/Engineering",
     ],
+    entry_points={
+        "console_scripts": [
+            "augaudio=augaudio.cli:main",
+        ]
+    },
 )
