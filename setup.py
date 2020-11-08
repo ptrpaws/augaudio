@@ -5,9 +5,15 @@ with open('README.md') as f:
 
 setup(
     name="augaudio",
+<<<<<<< HEAD
     version="1.0.0",
     author="Ellie",
     author_email="e3e@disroot.org",
+=======
+    version="1.0.4",
+    author="Bastian Schwickert",
+    author_email="Bastian.Schwickert@gmail.com",
+>>>>>>> b7bf66b (minor improvements)
     description="A simple audio data augmentation package",
     long_description=long_description,
     long_description_content_type='text/markdown',
